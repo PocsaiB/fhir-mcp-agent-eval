@@ -1,0 +1,7 @@
+﻿rendszer;kategória;futás;eszköz_%;argumentum_%;siker_%;tool_hívás;fordulók;halluc_%
+Szabályalapú router;ÖSSZES;42;78.6;71.4;47.6;1.67;1.67;14.3
+Szabályalapú router;egyszerű;8;87.5;87.5;75.0;0.88;0.88;12.5
+Szabályalapú router;többlépéses;10;80.0;80.0;60.0;2.20;2.20;20.0
+Szabályalapú router;megválaszolhatatlan;6;100.0;100.0;83.3;1.50;1.50;0.0
+Szabályalapú router;félreérthető;6;100.0;66.7;16.7;2.17;2.17;33.3
+Szabályalapú router;nehéz;12;50.0;41.7;16.7;1.58;1.58;8.3

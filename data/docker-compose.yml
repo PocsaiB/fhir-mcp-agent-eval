@@ -1,0 +1,16 @@
+services:
+  hapi:
+    image: hapiproject/hapi:v7.4.0
+    container_name: hapi-fhir
+    user: "0:0"  # a kép alapból nem-root; a névvel ellátott kötetre így tud írni
+    ports:
+      - "8080:8080"
+    environment:
+      # Perzisztens H2 adatbázis, hogy a betöltött adat újraindítás után is megmaradjon.
+      SPRING_DATASOURCE_URL: "jdbc:h2:file:/data/hapi/h2;DB_CLOSE_ON_EXIT=FALSE"
+      HAPI_FHIR_FHIR_VERSION: R4
+    volumes:
+      - hapi-data:/data/hapi
+
+volumes:
+  hapi-data:

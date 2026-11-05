@@ -1,0 +1,45 @@
+{"system": "large", "question_id": "q09", "repeat": 1, "answer_ok": true, "comment": "Magyarosított gyógyszernevek (Budezonid, Lizinopril); a három aktív gyógyszer helyes."}
+{"system": "large", "question_id": "q18", "repeat": 0, "answer_ok": true, "comment": "Magyarra fordított diagnózis- és gyógyszernevek; tartalmilag helyes (cukorbetegség, neuropátia, metabolikus szindróma, hipertrigliceridémia, vérszegénység; metformin, Errin)."}
+{"system": "large", "question_id": "q18", "repeat": 1, "answer_ok": true, "comment": "Magyarra fordított nevek; tartalmilag helyes."}
+{"system": "large", "question_id": "q17", "repeat": 0, "halluc": false, "comment": "Az 1,9 kg/m2 a két BMI különbsége (28,8-26,92), származtatott helyes szám."}
+{"system": "large", "question_id": "q17", "repeat": 1, "halluc": false, "comment": "Az 1,9 kg/m2 a két BMI különbsége (28,8-26,92), származtatott helyes szám."}
+{"system": "large", "question_id": "h01", "repeat": 0, "halluc": false, "comment": "Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség)."}
+{"system": "large", "question_id": "h01", "repeat": 1, "halluc": false, "comment": "Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség)."}
+{"system": "large", "question_id": "h02", "repeat": 0, "halluc": false, "comment": "Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség)."}
+{"system": "large", "question_id": "h02", "repeat": 1, "halluc": false, "comment": "Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség)."}
+{"system": "large", "question_id": "h10", "repeat": 0, "halluc": false, "comment": "Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség)."}
+{"system": "large", "question_id": "h10", "repeat": 1, "halluc": false, "comment": "Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség)."}
+{"system": "small", "question_id": "h01", "repeat": 0, "halluc": false, "comment": "Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség)."}
+{"system": "small", "question_id": "h01", "repeat": 1, "halluc": false, "comment": "Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség)."}
+{"system": "small", "question_id": "h01", "repeat": 2, "halluc": false, "comment": "Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség)."}
+{"system": "small", "question_id": "h02", "repeat": 0, "halluc": false, "comment": "Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség)."}
+{"system": "small", "question_id": "h02", "repeat": 1, "halluc": false, "comment": "Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség)."}
+{"system": "small", "question_id": "h02", "repeat": 2, "halluc": false, "comment": "Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség)."}
+{"system": "small", "question_id": "h10", "repeat": 0, "halluc": false, "comment": "Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség)."}
+{"system": "baseline", "question_id": "q06", "repeat": 0, "halluc": false, "error_category": "félreértett kérdés", "comment": "A router sablonja kiírja az \"első 10 látszik\" szöveget; a 10 sablon-szám, nem állítás. A hiba: az igen/nem kérdésre listát ad."}
+{"system": "baseline", "question_id": "q13", "repeat": 0, "halluc": false, "comment": "Sablon-szám (\"első 10 látszik\"), nem hallucináció."}
+{"system": "baseline", "question_id": "q16", "repeat": 0, "halluc": false, "comment": "Sablon-szám (\"első 10 látszik\"), nem hallucináció."}
+{"system": "baseline", "question_id": "q28", "repeat": 0, "halluc": false, "comment": "Sablon-szám; a valódi hiba a rossz találat kiválasztása (3 jelölt közül az elsőt veszi)."}
+{"system": "baseline", "question_id": "q30", "repeat": 0, "halluc": false, "comment": "Sablon-szám; a valódi hiba a rossz találat kiválasztása (az első Aufderhar)."}
+{"system": "baseline", "question_id": "h05", "repeat": 0, "halluc": false, "error_category": "rossz paraméter", "comment": "Sablon-szám; a hiba: az \"aktív és lezárt együtt\" kérdésre is clinical_status=active szűrőt ad (az \"aktív\" kulcsszó miatt), így 19 aktív bejegyzést számol az összes helyett."}
+{"system": "small", "question_id": "q02", "repeat": 0, "halluc": false, "comment": "A \"2 elhunyt\" származtatott, helyes szám (a 23 férfi közül Valdés és Montero elhunyt)."}
+{"system": "small", "question_id": "q02", "repeat": 2, "halluc": false, "comment": "A \"2\" a hívás eredményéből származtatott, helyes szám."}
+{"system": "small", "question_id": "q21", "repeat": 2, "halluc": false, "comment": "A \"25\" a \"25-OH D-vitamin\" névből jön (a modell a D-vitamin kódját kereste), nem mért érték."}
+{"system": "local", "question_id": "q19", "repeat": 0, "answer_ok": false, "comment": "A \"nincs adat\" válasz érvénytelen hívásból jött (név/kifejezés az azonosító helyén vagy név a számmezőben): a modell nem ellenőrizte a hiányt, szerencsés találat."}
+{"system": "local", "question_id": "q20", "repeat": 0, "answer_ok": false, "comment": "A \"nincs adat\" válasz érvénytelen hívásból jött (név/kifejezés az azonosító helyén vagy név a számmezőben): a modell nem ellenőrizte a hiányt, szerencsés találat."}
+{"system": "local", "question_id": "q21", "repeat": 0, "answer_ok": false, "comment": "A \"nincs adat\" válasz érvénytelen hívásból jött (név/kifejezés az azonosító helyén vagy név a számmezőben): a modell nem ellenőrizte a hiányt, szerencsés találat."}
+{"system": "local", "question_id": "q22", "repeat": 0, "answer_ok": false, "comment": "A \"nincs adat\" válasz érvénytelen hívásból jött (név/kifejezés az azonosító helyén vagy név a számmezőben): a modell nem ellenőrizte a hiányt, szerencsés találat."}
+{"system": "local", "question_id": "q23", "repeat": 0, "answer_ok": false, "comment": "A \"nincs adat\" válasz érvénytelen hívásból jött (név/kifejezés az azonosító helyén vagy név a számmezőben): a modell nem ellenőrizte a hiányt, szerencsés találat."}
+{"system": "local", "question_id": "q24", "repeat": 0, "answer_ok": false, "comment": "A \"nincs adat\" válasz érvénytelen hívásból jött (név/kifejezés az azonosító helyén vagy név a számmezőben): a modell nem ellenőrizte a hiányt, szerencsés találat."}
+{"system": "local", "question_id": "h09", "repeat": 0, "answer_ok": false, "comment": "A \"nincs adat\" válasz érvénytelen hívásból jött (név/kifejezés az azonosító helyén vagy név a számmezőben): a modell nem ellenőrizte a hiányt, szerencsés találat."}
+{"system": "old", "question_id": "q09", "repeat": 0, "answer_ok": true, "comment": "Magyarosított/fordított nevek; tartalmilag helyes."}
+{"system": "old", "question_id": "q29", "repeat": 1, "answer_ok": true, "comment": "Magyarosított/fordított nevek; tartalmilag helyes."}
+{"system": "old", "question_id": "q18", "repeat": 0, "answer_ok": true, "comment": "Magyarosított/fordított nevek; tartalmilag helyes."}
+{"system": "old", "question_id": "q18", "repeat": 1, "answer_ok": true, "comment": "Magyarosított/fordított nevek; tartalmilag helyes."}
+{"system": "old", "question_id": "h01", "repeat": 0, "halluc": false, "comment": "Származtatott, helyes szám (összeg / korkülönbség / értékkülönbség)."}
+{"system": "old", "question_id": "h01", "repeat": 1, "halluc": false, "comment": "Származtatott, helyes szám (összeg / korkülönbség / értékkülönbség)."}
+{"system": "old", "question_id": "h02", "repeat": 0, "halluc": false, "comment": "Származtatott, helyes szám (összeg / korkülönbség / értékkülönbség)."}
+{"system": "old", "question_id": "h02", "repeat": 1, "halluc": false, "comment": "Származtatott, helyes szám (összeg / korkülönbség / értékkülönbség)."}
+{"system": "old", "question_id": "h03", "repeat": 1, "halluc": false, "comment": "Származtatott, helyes szám (összeg / korkülönbség / értékkülönbség)."}
+{"system": "old", "question_id": "q30", "repeat": 0, "error_category": "rossz paraméter", "comment": "Kitalált születési dátum (2009-01-01) a keresésben, így nincs találat; a modell feladta."}
+{"system": "old", "question_id": "h03", "repeat": 0, "error_category": "rossz paraméter", "comment": "A ragozott névalakot (Lyman Runtén) kereste, ezért nem találta meg; a Runte-részt kihagyta."}

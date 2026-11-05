@@ -1,0 +1,379 @@
+﻿system;label;qid;category;repeat;tool_ok;args_ok;answer_ok;confidence;halluc;unsupported;err_cat;n_tool_calls;n_steps;input_tokens;output_tokens;duration_s;cost_usd;end_reason;comment
+baseline;Szabályalapú router;h01;hard;0;False;False;False;auto-high;False;;kihagyott lépés;2;2;0;0;0.39;0.0;final_answer;
+baseline;Szabályalapú router;h02;hard;0;False;False;False;auto-high;False;;kihagyott lépés;0;0;0;0;0.0;0.0;final_answer;
+baseline;Szabályalapú router;h03;hard;0;False;False;False;auto-high;False;;kihagyott lépés;1;1;0;0;0.18;0.0;final_answer;
+baseline;Szabályalapú router;h04;hard;0;False;False;False;auto-high;False;;kihagyott lépés;2;2;0;0;0.42;0.0;final_answer;
+baseline;Szabályalapú router;h05;hard;0;True;True;False;manual;False;10;rossz paraméter;2;2;0;0;0.4;0.0;final_answer;"Sablon-szám; a hiba: az ""aktív és lezárt együtt"" kérdésre is clinical_status=active szűrőt ad (az ""aktív"" kulcsszó miatt), így 19 aktív bejegyzést számol az összes helyett."
+baseline;Szabályalapú router;h06;hard;0;True;True;True;auto-high;False;;;2;2;0;0;0.4;0.0;final_answer;
+baseline;Szabályalapú router;h07;hard;0;True;True;False;auto-high;False;;félreértett kérdés;2;2;0;0;0.39;0.0;final_answer;
+baseline;Szabályalapú router;h08;hard;0;True;False;False;auto-high;False;;rossz paraméter;2;2;0;0;0.41;0.0;final_answer;
+baseline;Szabályalapú router;h09;hard;0;True;True;True;auto-low;False;;;2;2;0;0;0.37;0.0;final_answer;
+baseline;Szabályalapú router;h10;hard;0;False;False;False;auto-high;False;;kihagyott lépés;2;2;0;0;0.37;0.0;final_answer;
+baseline;Szabályalapú router;h11;hard;0;False;False;False;auto-high;False;;kihagyott lépés;2;2;0;0;0.4;0.0;final_answer;
+baseline;Szabályalapú router;h12;hard;0;True;True;False;auto-high;False;;félreértett kérdés;1;1;0;0;0.21;0.0;final_answer;
+baseline;Szabályalapú router;q01;simple;0;True;True;True;auto-high;False;;;1;1;0;0;0.23;0.0;final_answer;
+baseline;Szabályalapú router;q02;simple;0;False;False;False;auto-high;False;;kihagyott lépés;0;0;0;0;0.0;0.0;final_answer;
+baseline;Szabályalapú router;q03;simple;0;True;True;True;auto-high;False;;;1;1;0;0;0.19;0.0;final_answer;
+baseline;Szabályalapú router;q04;simple;0;True;True;True;auto-high;False;;;1;1;0;0;0.19;0.0;final_answer;
+baseline;Szabályalapú router;q05;simple;0;True;True;True;auto-high;False;;;1;1;0;0;0.2;0.0;final_answer;
+baseline;Szabályalapú router;q06;simple;0;True;True;False;manual;False;10;félreértett kérdés;1;1;0;0;0.26;0.0;final_answer;"A router sablonja kiírja az ""első 10 látszik"" szöveget; a 10 sablon-szám, nem állítás. A hiba: az igen/nem kérdésre listát ad."
+baseline;Szabályalapú router;q07;simple;0;True;True;True;auto-high;False;;;1;1;0;0;0.2;0.0;final_answer;
+baseline;Szabályalapú router;q08;simple;0;True;True;True;auto-high;False;;;1;1;0;0;0.22;0.0;final_answer;
+baseline;Szabályalapú router;q09;multi_step;0;True;True;True;auto-high;False;;;2;2;0;0;0.38;0.0;final_answer;
+baseline;Szabályalapú router;q10;multi_step;0;True;True;True;auto-high;False;;;2;2;0;0;0.4;0.0;final_answer;
+baseline;Szabályalapú router;q11;multi_step;0;True;True;False;auto-high;False;;félreértett kérdés;2;2;0;0;0.41;0.0;final_answer;
+baseline;Szabályalapú router;q12;multi_step;0;True;True;False;auto-high;False;;félreértett kérdés;2;2;0;0;0.44;0.0;final_answer;
+baseline;Szabályalapú router;q13;multi_step;0;True;True;True;manual;False;10;;2;2;0;0;0.46;0.0;final_answer;"Sablon-szám (""első 10 látszik""), nem hallucináció."
+baseline;Szabályalapú router;q14;multi_step;0;True;True;True;auto-high;False;;;2;2;0;0;0.41;0.0;final_answer;
+baseline;Szabályalapú router;q15;multi_step;0;True;True;True;auto-high;False;;;3;3;0;0;0.61;0.0;final_answer;
+baseline;Szabályalapú router;q16;multi_step;0;True;True;True;manual;False;10;;3;3;0;0;0.62;0.0;final_answer;"Sablon-szám (""első 10 látszik""), nem hallucináció."
+baseline;Szabályalapú router;q17;multi_step;0;False;False;False;auto-high;False;;kihagyott lépés;3;3;0;0;0.61;0.0;final_answer;
+baseline;Szabályalapú router;q18;multi_step;0;False;False;False;auto-high;False;;kihagyott lépés;2;2;0;0;0.4;0.0;final_answer;
+baseline;Szabályalapú router;q19;unanswerable;0;True;True;True;auto-low;False;;;2;2;0;0;0.4;0.0;final_answer;
+baseline;Szabályalapú router;q20;unanswerable;0;True;True;True;auto-low;False;;;1;1;0;0;0.19;0.0;final_answer;
+baseline;Szabályalapú router;q21;unanswerable;0;True;True;False;auto-low;False;;félreértett kérdés;2;2;0;0;0.42;0.0;final_answer;
+baseline;Szabályalapú router;q22;unanswerable;0;True;True;True;auto-low;False;;;2;2;0;0;0.39;0.0;final_answer;
+baseline;Szabályalapú router;q23;unanswerable;0;True;True;True;auto-low;False;;;2;2;0;0;0.39;0.0;final_answer;
+baseline;Szabályalapú router;q24;unanswerable;0;True;True;True;auto-low;False;;;0;0;0;0;0.0;0.0;final_answer;
+baseline;Szabályalapú router;q25;ambiguous;0;True;True;False;auto-low;False;;rossz találat kiválasztása;2;2;0;0;0.4;0.0;final_answer;
+baseline;Szabályalapú router;q26;ambiguous;0;True;True;False;auto-low;False;;rossz találat kiválasztása;2;2;0;0;0.39;0.0;final_answer;
+baseline;Szabályalapú router;q27;ambiguous;0;True;True;False;auto-low;False;;rossz találat kiválasztása;2;2;0;0;0.4;0.0;final_answer;
+baseline;Szabályalapú router;q28;ambiguous;0;True;True;False;manual;False;10;rossz találat kiválasztása;2;2;0;0;0.4;0.0;final_answer;"Sablon-szám; a valódi hiba a rossz találat kiválasztása (3 jelölt közül az elsőt veszi)."
+baseline;Szabályalapú router;q29;ambiguous;0;True;False;True;auto-high;False;;;2;2;0;0;0.4;0.0;final_answer;
+baseline;Szabályalapú router;q30;ambiguous;0;True;False;False;manual;False;10;rossz találat kiválasztása;3;3;0;0;0.63;0.0;final_answer;"Sablon-szám; a valódi hiba a rossz találat kiválasztása (az első Aufderhar)."
+large;Sonnet 5.5 (nagy);h01;hard;0;True;True;True;manual;False;10;;3;3;9556;362;7.51;0.02273;final_answer;Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség). Kézi átnézés (Claude), felhasználói megerősítés kell.
+large;Sonnet 5.5 (nagy);h01;hard;1;True;True;True;manual;False;10;;3;3;9556;362;6.03;0.02273;final_answer;Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség). Kézi átnézés (Claude), felhasználói megerősítés kell.
+large;Sonnet 5.5 (nagy);h02;hard;0;True;True;True;manual;False;36,5 | 36 | 37;;1;2;5557;167;2.83;0.01278;final_answer;Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség). Kézi átnézés (Claude), felhasználói megerősítés kell.
+large;Sonnet 5.5 (nagy);h02;hard;1;True;True;True;manual;False;36 | 37 | 36 | 6;;1;2;5557;166;4.84;0.01277;final_answer;Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség). Kézi átnézés (Claude), felhasználói megerősítés kell.
+large;Sonnet 5.5 (nagy);h03;hard;0;True;True;True;auto-high;False;;;4;3;9252;383;5.84;0.02233;final_answer;
+large;Sonnet 5.5 (nagy);h03;hard;1;True;True;True;auto-high;False;;;4;3;9252;383;5.43;0.02233;final_answer;
+large;Sonnet 5.5 (nagy);h04;hard;0;True;True;True;auto-high;False;;;6;3;10047;641;7.05;0.0265;final_answer;
+large;Sonnet 5.5 (nagy);h04;hard;1;True;True;True;auto-high;False;;;6;3;10047;643;7.47;0.02652;final_answer;
+large;Sonnet 5.5 (nagy);h05;hard;0;True;True;True;auto-high;False;;;2;3;13786;229;4.98;0.02986;final_answer;
+large;Sonnet 5.5 (nagy);h05;hard;1;True;True;True;auto-high;False;;;2;3;13786;209;5.88;0.02966;final_answer;
+large;Sonnet 5.5 (nagy);h06;hard;0;True;True;True;auto-high;False;;;2;3;11913;224;4.47;0.02607;final_answer;
+large;Sonnet 5.5 (nagy);h06;hard;1;True;True;True;auto-high;False;;;2;3;11913;240;4.03;0.02623;final_answer;
+large;Sonnet 5.5 (nagy);h07;hard;0;True;True;True;auto-high;False;;;2;3;8779;240;4.06;0.01996;final_answer;
+large;Sonnet 5.5 (nagy);h07;hard;1;True;True;True;auto-high;False;;;2;3;8779;259;3.97;0.02015;final_answer;
+large;Sonnet 5.5 (nagy);h08;hard;0;True;True;True;auto-high;False;;;2;3;8592;249;3.83;0.01967;final_answer;
+large;Sonnet 5.5 (nagy);h08;hard;1;True;True;True;auto-high;False;;;2;3;8592;251;3.82;0.01969;final_answer;
+large;Sonnet 5.5 (nagy);h09;hard;0;True;True;True;auto-low;False;;;2;3;8455;223;4.11;0.01914;final_answer;
+large;Sonnet 5.5 (nagy);h09;hard;1;True;True;True;auto-low;False;;;2;3;8455;223;4.26;0.01914;final_answer;
+large;Sonnet 5.5 (nagy);h10;hard;0;True;True;True;manual;False;34,9;;3;3;8934;408;5.91;0.02195;final_answer;Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség). Kézi átnézés (Claude), felhasználói megerősítés kell.
+large;Sonnet 5.5 (nagy);h10;hard;1;True;True;True;manual;False;34,9;;3;3;8934;411;5.94;0.02198;final_answer;Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség). Kézi átnézés (Claude), felhasználói megerősítés kell.
+large;Sonnet 5.5 (nagy);h11;hard;0;True;False;True;auto-high;False;;;3;3;11922;440;6.56;0.02824;final_answer;
+large;Sonnet 5.5 (nagy);h11;hard;1;True;False;True;auto-high;False;;;3;3;11922;462;6.92;0.02846;final_answer;
+large;Sonnet 5.5 (nagy);h12;hard;0;True;True;True;auto-high;False;;;1;2;5607;205;3.14;0.01326;final_answer;
+large;Sonnet 5.5 (nagy);h12;hard;1;True;True;True;auto-high;False;;;1;2;5607;198;3.09;0.01319;final_answer;
+large;Sonnet 5.5 (nagy);q01;simple;0;True;True;True;auto-high;False;;;1;2;5571;171;2.72;0.01285;final_answer;
+large;Sonnet 5.5 (nagy);q01;simple;1;True;True;True;auto-high;False;;;1;2;5571;181;2.55;0.01295;final_answer;
+large;Sonnet 5.5 (nagy);q02;simple;0;True;True;True;auto-high;False;;;1;2;6662;126;3.55;0.01458;final_answer;
+large;Sonnet 5.5 (nagy);q02;simple;1;True;True;True;auto-high;False;;;1;2;6662;123;3.55;0.01455;final_answer;
+large;Sonnet 5.5 (nagy);q03;simple;0;True;True;True;auto-high;False;;;1;2;5496;91;3.96;0.0119;final_answer;
+large;Sonnet 5.5 (nagy);q03;simple;1;True;True;True;auto-high;False;;;1;2;5496;101;2.68;0.012;final_answer;
+large;Sonnet 5.5 (nagy);q04;simple;0;True;True;True;auto-high;False;;;1;2;5489;104;2.31;0.01202;final_answer;
+large;Sonnet 5.5 (nagy);q04;simple;1;True;True;True;auto-high;False;;;1;2;5489;104;2.43;0.01202;final_answer;
+large;Sonnet 5.5 (nagy);q05;simple;0;True;True;True;auto-high;False;;;1;2;5715;263;3.29;0.01406;final_answer;
+large;Sonnet 5.5 (nagy);q05;simple;1;True;True;True;auto-high;False;;;1;2;5715;269;3.35;0.01412;final_answer;
+large;Sonnet 5.5 (nagy);q06;simple;0;True;True;True;auto-high;False;;;1;2;9584;226;6.41;0.02143;final_answer;
+large;Sonnet 5.5 (nagy);q06;simple;1;True;True;True;auto-high;False;;;1;2;8614;199;3.88;0.01922;final_answer;
+large;Sonnet 5.5 (nagy);q07;simple;0;True;True;True;auto-high;False;;;1;2;5589;156;2.8;0.01274;final_answer;
+large;Sonnet 5.5 (nagy);q07;simple;1;True;True;True;auto-high;False;;;1;2;5589;155;2.76;0.01273;final_answer;
+large;Sonnet 5.5 (nagy);q08;simple;0;True;True;True;auto-high;False;;;1;2;5626;168;5.38;0.01293;final_answer;
+large;Sonnet 5.5 (nagy);q08;simple;1;True;True;True;auto-high;False;;;1;2;5626;170;3.24;0.01295;final_answer;
+large;Sonnet 5.5 (nagy);q09;multi_step;0;True;True;True;auto-high;False;;;2;3;8630;319;5.03;0.02045;final_answer;
+large;Sonnet 5.5 (nagy);q09;multi_step;1;True;True;True;manual;False;;;2;3;8630;341;5.25;0.02067;final_answer;"Magyarosított gyógyszernevek (Budezonid, Lizinopril); a három aktív gyógyszer helyes. Kézi átnézés (Claude), felhasználói megerősítés kell."
+large;Sonnet 5.5 (nagy);q10;multi_step;0;True;True;True;auto-high;False;;;2;3;8574;217;4.31;0.01932;final_answer;
+large;Sonnet 5.5 (nagy);q10;multi_step;1;True;True;True;auto-high;False;;;2;3;8574;217;4.29;0.01932;final_answer;
+large;Sonnet 5.5 (nagy);q11;multi_step;0;True;True;True;auto-high;False;;;2;3;8647;249;4.95;0.01978;final_answer;
+large;Sonnet 5.5 (nagy);q11;multi_step;1;True;True;True;auto-high;False;;;2;3;8647;250;4.64;0.01979;final_answer;
+large;Sonnet 5.5 (nagy);q12;multi_step;0;True;True;True;auto-high;False;;;2;3;9021;238;4.54;0.02042;final_answer;
+large;Sonnet 5.5 (nagy);q12;multi_step;1;True;True;True;auto-high;False;;;2;3;9021;231;4.71;0.02035;final_answer;
+large;Sonnet 5.5 (nagy);q13;multi_step;0;True;True;True;auto-high;False;;;2;3;11478;296;5.2;0.02592;final_answer;
+large;Sonnet 5.5 (nagy);q13;multi_step;1;True;True;True;auto-high;False;;;2;3;11478;299;6.73;0.02595;final_answer;
+large;Sonnet 5.5 (nagy);q14;multi_step;0;True;True;True;auto-high;False;;;2;3;8519;215;6.21;0.01919;final_answer;
+large;Sonnet 5.5 (nagy);q14;multi_step;1;True;True;True;auto-high;False;;;2;3;8519;204;3.8;0.01908;final_answer;
+large;Sonnet 5.5 (nagy);q15;multi_step;0;True;True;True;auto-high;False;;;2;3;8627;270;5.86;0.01995;final_answer;
+large;Sonnet 5.5 (nagy);q15;multi_step;1;True;True;True;auto-high;False;;;2;3;8627;278;5.75;0.02003;final_answer;
+large;Sonnet 5.5 (nagy);q16;multi_step;0;True;True;True;auto-high;False;;;2;3;8860;290;4.69;0.02062;final_answer;
+large;Sonnet 5.5 (nagy);q16;multi_step;1;True;True;True;auto-high;False;;;2;3;8860;286;4.95;0.02058;final_answer;
+large;Sonnet 5.5 (nagy);q17;multi_step;0;True;True;True;manual;False;1,9;;4;3;9270;443;5.45;0.02297;final_answer;Az 1,9 kg/m2 a két BMI különbsége (28,8-26,92), származtatott helyes szám.
+large;Sonnet 5.5 (nagy);q17;multi_step;1;True;True;True;manual;False;1,9;;4;3;9270;417;6.42;0.02271;final_answer;Az 1,9 kg/m2 a két BMI különbsége (28,8-26,92), származtatott helyes szám.
+large;Sonnet 5.5 (nagy);q18;multi_step;0;True;True;True;manual;False;;;3;3;9958;633;6.92;0.02625;final_answer;"Magyarra fordított diagnózis- és gyógyszernevek; tartalmilag helyes (cukorbetegség, neuropátia, metabolikus szindróma, hipertrigliceridémia, vérszegénység; metformin, Errin). Kézi átnézés, megerősítés kell."
+large;Sonnet 5.5 (nagy);q18;multi_step;1;True;True;True;manual;False;;;3;3;9958;631;7.04;0.02623;final_answer;"Magyarra fordított nevek; tartalmilag helyes. Kézi átnézés, megerősítés kell."
+large;Sonnet 5.5 (nagy);q19;unanswerable;0;True;True;True;auto-low;False;;;3;3;8482;296;5.87;0.01992;final_answer;
+large;Sonnet 5.5 (nagy);q19;unanswerable;1;True;True;True;auto-low;False;;;3;3;8519;339;6.35;0.02043;final_answer;
+large;Sonnet 5.5 (nagy);q20;unanswerable;0;True;True;True;auto-low;False;;;1;2;5439;137;3.23;0.01225;final_answer;
+large;Sonnet 5.5 (nagy);q20;unanswerable;1;True;True;True;auto-low;False;;;1;2;5439;144;2.74;0.01232;final_answer;
+large;Sonnet 5.5 (nagy);q21;unanswerable;0;True;True;True;auto-low;False;;;2;3;11880;314;4.97;0.0269;final_answer;
+large;Sonnet 5.5 (nagy);q21;unanswerable;1;True;True;True;auto-low;False;;;2;3;11888;314;4.81;0.02692;final_answer;
+large;Sonnet 5.5 (nagy);q22;unanswerable;0;True;True;True;auto-low;False;;;2;3;8498;303;4.77;0.02003;final_answer;
+large;Sonnet 5.5 (nagy);q22;unanswerable;1;True;True;True;auto-low;False;;;2;3;8497;300;4.71;0.01999;final_answer;
+large;Sonnet 5.5 (nagy);q23;unanswerable;0;True;True;True;auto-low;False;;;2;3;8421;198;6.35;0.01882;final_answer;
+large;Sonnet 5.5 (nagy);q23;unanswerable;1;True;True;True;auto-low;False;;;2;3;8421;198;5.41;0.01882;final_answer;
+large;Sonnet 5.5 (nagy);q24;unanswerable;0;True;True;True;auto-low;False;;;2;3;8412;204;4.41;0.01886;final_answer;
+large;Sonnet 5.5 (nagy);q24;unanswerable;1;True;True;True;auto-low;False;;;2;3;8412;209;4.33;0.01891;final_answer;
+large;Sonnet 5.5 (nagy);q25;ambiguous;0;True;True;True;auto-low;False;;;1;2;5508;163;4.1;0.01265;final_answer;
+large;Sonnet 5.5 (nagy);q25;ambiguous;1;True;True;True;auto-low;False;;;1;2;5508;131;2.95;0.01233;final_answer;
+large;Sonnet 5.5 (nagy);q26;ambiguous;0;True;True;True;auto-low;False;;;1;2;5491;123;2.68;0.01221;final_answer;
+large;Sonnet 5.5 (nagy);q26;ambiguous;1;True;True;True;auto-low;False;;;1;2;5491;120;2.8;0.01218;final_answer;
+large;Sonnet 5.5 (nagy);q27;ambiguous;0;True;True;True;auto-low;False;;;1;2;5509;169;3.57;0.01271;final_answer;
+large;Sonnet 5.5 (nagy);q27;ambiguous;1;True;True;True;auto-low;False;;;1;2;5509;131;2.97;0.01233;final_answer;
+large;Sonnet 5.5 (nagy);q28;ambiguous;0;True;True;True;auto-low;False;;;1;2;5597;248;3.97;0.01367;final_answer;
+large;Sonnet 5.5 (nagy);q28;ambiguous;1;True;True;True;auto-low;False;;;1;2;5597;238;6.03;0.01357;final_answer;
+large;Sonnet 5.5 (nagy);q29;ambiguous;0;True;True;True;auto-high;False;;;2;3;8659;337;5.39;0.02069;final_answer;
+large;Sonnet 5.5 (nagy);q29;ambiguous;1;True;True;True;auto-high;False;;;2;3;8659;346;5.43;0.02078;final_answer;
+large;Sonnet 5.5 (nagy);q30;ambiguous;0;True;True;True;auto-high;False;;;2;3;9118;232;5.09;0.02056;final_answer;
+large;Sonnet 5.5 (nagy);q30;ambiguous;1;True;True;True;auto-high;False;;;2;3;9118;233;5.43;0.02057;final_answer;
+local;Llama 3.2 3B (helyi, butább);h01;hard;0;False;False;False;auto-high;False;;rossz paraméter;1;2;1963;71;5.24;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);h02;hard;0;True;True;False;auto-high;False;;rossz paraméter;3;2;2106;467;11.99;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);h03;hard;0;False;False;False;auto-high;False;;rossz paraméter;2;2;2051;154;6.99;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);h04;hard;0;True;False;False;auto-high;False;;rossz paraméter;6;2;2465;321;11.81;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);h05;hard;0;False;False;False;auto-high;False;;rossz paraméter;2;2;2069;104;6.19;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);h06;hard;0;False;False;False;auto-high;False;;rossz paraméter;1;2;1953;100;5.67;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);h07;hard;0;False;False;False;auto-high;False;;rossz paraméter;3;2;2166;215;8.57;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);h08;hard;0;False;False;False;auto-high;False;;rossz paraméter;1;2;1964;123;6.02;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);h09;hard;0;False;False;False;manual;False;;rossz paraméter;1;2;1952;104;5.78;0.0;final_answer;"A ""nincs adat"" válasz érvénytelen hívásból jött (név/kifejezés az azonosító helyén vagy név a számmezőben): a modell nem ellenőrizte a hiányt, szerencsés találat. Kézi átnézés (Claude), megerősítés kell."
+local;Llama 3.2 3B (helyi, butább);h10;hard;0;False;False;False;auto-high;True;2022-01-01 | 2022-12-31;rossz paraméter;2;2;2075;237;8.22;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);h11;hard;0;False;False;False;auto-high;False;;rossz paraméter;1;2;1948;63;4.97;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);h12;hard;0;True;True;True;auto-high;False;;;1;2;2036;93;5.62;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q01;simple;0;True;True;True;auto-high;False;;;1;2;2006;75;5.36;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q02;simple;0;True;True;True;auto-high;False;;;1;2;2833;47;7.15;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q03;simple;0;False;False;False;auto-high;False;;kihagyott lépés;1;2;1928;73;5.09;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q04;simple;0;False;False;False;auto-high;False;;kihagyott lépés;1;2;1922;89;5.27;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q05;simple;0;True;True;True;auto-high;False;;;1;2;2091;183;7.1;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q06;simple;0;True;True;False;auto-high;False;;félreértett kérdés;1;2;2924;96;8.44;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q07;simple;0;True;True;True;auto-high;False;;;1;2;2025;94;5.76;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q08;simple;0;True;False;False;auto-high;False;;rossz paraméter;1;2;1975;88;5.54;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q09;multi_step;0;False;False;False;auto-high;False;;rossz paraméter;1;2;1920;41;4.53;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q10;multi_step;0;False;False;False;auto-high;False;;rossz paraméter;1;2;1960;117;5.95;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q11;multi_step;0;False;False;False;auto-high;False;;rossz paraméter;1;2;1963;93;5.58;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q12;multi_step;0;False;False;False;auto-high;False;;rossz paraméter;1;2;1931;53;4.75;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q13;multi_step;0;False;False;False;auto-high;False;;rossz paraméter;1;2;1950;86;5.32;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q14;multi_step;0;False;False;False;auto-high;False;;rossz paraméter;1;2;1925;82;5.22;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q15;multi_step;0;False;False;False;auto-high;False;;rossz paraméter;1;2;1946;83;5.44;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q16;multi_step;0;False;False;False;auto-high;False;;rossz paraméter;1;2;1936;64;4.91;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q17;multi_step;0;False;False;False;auto-high;False;;rossz paraméter;2;2;2064;190;7.55;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q18;multi_step;0;False;False;False;auto-high;False;;rossz találat kiválasztása;2;2;2035;125;6.39;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q19;unanswerable;0;False;False;False;manual;False;;rossz paraméter;1;2;1914;38;4.51;0.0;final_answer;"A ""nincs adat"" válasz érvénytelen hívásból jött (név/kifejezés az azonosító helyén vagy név a számmezőben): a modell nem ellenőrizte a hiányt, szerencsés találat. Kézi átnézés (Claude), megerősítés kell."
+local;Llama 3.2 3B (helyi, butább);q20;unanswerable;0;False;False;False;manual;False;;kihagyott lépés;1;2;1930;70;5.09;0.0;final_answer;"A ""nincs adat"" válasz érvénytelen hívásból jött (név/kifejezés az azonosító helyén vagy név a számmezőben): a modell nem ellenőrizte a hiányt, szerencsés találat. Kézi átnézés (Claude), megerősítés kell."
+local;Llama 3.2 3B (helyi, butább);q21;unanswerable;0;False;False;False;manual;False;;rossz paraméter;1;2;1925;58;4.84;0.0;final_answer;"A ""nincs adat"" válasz érvénytelen hívásból jött (név/kifejezés az azonosító helyén vagy név a számmezőben): a modell nem ellenőrizte a hiányt, szerencsés találat. Kézi átnézés (Claude), megerősítés kell."
+local;Llama 3.2 3B (helyi, butább);q22;unanswerable;0;False;False;False;manual;False;;rossz paraméter;1;2;1945;100;5.55;0.0;final_answer;"A ""nincs adat"" válasz érvénytelen hívásból jött (név/kifejezés az azonosító helyén vagy név a számmezőben): a modell nem ellenőrizte a hiányt, szerencsés találat. Kézi átnézés (Claude), megerősítés kell."
+local;Llama 3.2 3B (helyi, butább);q23;unanswerable;0;False;False;False;manual;False;;rossz paraméter;1;2;1909;58;4.8;0.0;final_answer;"A ""nincs adat"" válasz érvénytelen hívásból jött (név/kifejezés az azonosító helyén vagy név a számmezőben): a modell nem ellenőrizte a hiányt, szerencsés találat. Kézi átnézés (Claude), megerősítés kell."
+local;Llama 3.2 3B (helyi, butább);q24;unanswerable;0;True;True;False;manual;False;;rossz paraméter;1;2;1883;57;4.65;0.0;final_answer;"A ""nincs adat"" válasz érvénytelen hívásból jött (név/kifejezés az azonosító helyén vagy név a számmezőben): a modell nem ellenőrizte a hiányt, szerencsés találat. Kézi átnézés (Claude), megerősítés kell."
+local;Llama 3.2 3B (helyi, butább);q25;ambiguous;0;False;False;False;auto-low;False;;rossz paraméter;1;2;1907;33;4.35;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q26;ambiguous;0;True;True;False;auto-low;False;;félreértett kérdés;1;2;1931;48;4.66;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q27;ambiguous;0;False;False;False;auto-low;False;;rossz paraméter;1;2;1928;95;5.45;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q28;ambiguous;0;False;False;False;auto-low;False;;rossz találat kiválasztása;1;2;1948;58;4.99;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q29;ambiguous;0;False;False;False;auto-high;False;;rossz paraméter;1;2;1929;40;4.69;0.0;final_answer;
+local;Llama 3.2 3B (helyi, butább);q30;ambiguous;0;False;False;False;auto-high;False;;rossz paraméter;1;2;1957;67;5.23;0.0;final_answer;
+old;Haiku 4.5 (régebbi);h01;hard;0;True;True;True;manual;False;10;;3;3;10149;306;4.95;0.01168;final_answer;Származtatott, helyes szám (összeg / korkülönbség / értékkülönbség). Kézi átnézés (Claude), felhasználói megerősítés kell.
+old;Haiku 4.5 (régebbi);h01;hard;1;True;True;True;manual;False;10;;3;3;10155;560;6.53;0.01295;final_answer;Származtatott, helyes szám (összeg / korkülönbség / értékkülönbség). Kézi átnézés (Claude), felhasználói megerősítés kell.
+old;Haiku 4.5 (régebbi);h02;hard;0;True;True;True;manual;False;37;;1;2;6098;189;2.69;0.00704;final_answer;Származtatott, helyes szám (összeg / korkülönbség / értékkülönbség). Kézi átnézés (Claude), felhasználói megerősítés kell.
+old;Haiku 4.5 (régebbi);h02;hard;1;True;True;True;manual;False;37;;1;2;6082;176;2.75;0.00696;final_answer;Származtatott, helyes szám (összeg / korkülönbség / értékkülönbség). Kézi átnézés (Claude), felhasználói megerősítés kell.
+old;Haiku 4.5 (régebbi);h03;hard;0;False;False;False;auto-high;False;;rossz paraméter;3;3;9762;430;6.23;0.01191;final_answer;"A ragozott névalakot (Lyman Runtén) kereste, ezért nem találta meg; a Runte-részt kihagyta. Kézi átnézés (Claude)."
+old;Haiku 4.5 (régebbi);h03;hard;1;True;True;True;manual;False;0,59;;4;3;9991;449;6.04;0.01224;final_answer;Származtatott, helyes szám (összeg / korkülönbség / értékkülönbség). Kézi átnézés (Claude), felhasználói megerősítés kell.
+old;Haiku 4.5 (régebbi);h04;hard;0;True;True;True;auto-high;False;;;6;3;10565;526;6.83;0.0132;final_answer;
+old;Haiku 4.5 (régebbi);h04;hard;1;True;True;True;auto-high;False;;;6;3;10611;574;7.15;0.01348;final_answer;
+old;Haiku 4.5 (régebbi);h05;hard;0;True;True;True;auto-high;False;;;2;3;13934;303;5.19;0.01545;final_answer;
+old;Haiku 4.5 (régebbi);h05;hard;1;True;True;True;auto-high;False;;;2;3;13930;291;5.24;0.01538;final_answer;
+old;Haiku 4.5 (régebbi);h06;hard;0;True;True;True;auto-high;False;;;2;3;12335;301;5.17;0.01384;final_answer;
+old;Haiku 4.5 (régebbi);h06;hard;1;True;True;True;auto-high;False;;;2;3;12304;286;4.93;0.01373;final_answer;
+old;Haiku 4.5 (régebbi);h07;hard;0;True;True;True;auto-high;False;;;2;3;9906;302;4.63;0.01142;final_answer;
+old;Haiku 4.5 (régebbi);h07;hard;1;True;True;True;auto-high;False;;;2;3;9909;322;4.97;0.01152;final_answer;
+old;Haiku 4.5 (régebbi);h08;hard;0;True;True;True;auto-high;False;;;2;3;9437;303;4.55;0.01095;final_answer;
+old;Haiku 4.5 (régebbi);h08;hard;1;True;True;True;auto-high;False;;;2;3;9432;305;4.5;0.01096;final_answer;
+old;Haiku 4.5 (régebbi);h09;hard;0;True;True;True;auto-low;False;;;2;3;9289;255;4.21;0.01056;final_answer;
+old;Haiku 4.5 (régebbi);h09;hard;1;True;True;True;auto-low;False;;;2;3;9279;242;3.88;0.01049;final_answer;
+old;Haiku 4.5 (régebbi);h10;hard;0;True;True;True;auto-high;False;;;3;3;9737;427;5.82;0.01187;final_answer;
+old;Haiku 4.5 (régebbi);h10;hard;1;True;True;True;auto-high;False;;;3;3;9713;401;5.65;0.01172;final_answer;
+old;Haiku 4.5 (régebbi);h11;hard;0;True;False;True;auto-high;False;;;3;3;12927;328;5.85;0.01457;final_answer;
+old;Haiku 4.5 (régebbi);h11;hard;1;True;False;True;auto-high;False;;;3;3;11244;342;5.57;0.01295;final_answer;
+old;Haiku 4.5 (régebbi);h12;hard;0;True;True;True;auto-high;False;;;1;2;6103;163;2.74;0.00692;final_answer;
+old;Haiku 4.5 (régebbi);h12;hard;1;True;True;True;auto-high;False;;;1;2;6083;154;2.72;0.00685;final_answer;
+old;Haiku 4.5 (régebbi);q01;simple;0;True;True;True;auto-high;False;;;1;2;6072;158;2.7;0.00686;final_answer;
+old;Haiku 4.5 (régebbi);q01;simple;1;True;True;True;auto-high;False;;;1;2;6055;143;2.47;0.00677;final_answer;
+old;Haiku 4.5 (régebbi);q02;simple;0;False;False;False;auto-high;False;;kihagyott lépés;0;1;2923;228;3.46;0.00406;final_answer;
+old;Haiku 4.5 (régebbi);q02;simple;1;False;False;False;auto-high;False;;kihagyott lépés;0;1;2923;204;3.0;0.00394;final_answer;
+old;Haiku 4.5 (régebbi);q03;simple;0;True;True;True;auto-high;False;;;1;2;6007;108;2.18;0.00655;final_answer;
+old;Haiku 4.5 (régebbi);q03;simple;1;True;True;True;auto-high;False;;;1;2;6007;109;2.28;0.00655;final_answer;
+old;Haiku 4.5 (régebbi);q04;simple;0;True;True;True;auto-high;False;;;1;2;6007;98;2.28;0.0065;final_answer;
+old;Haiku 4.5 (régebbi);q04;simple;1;True;True;True;auto-high;False;;;1;2;6007;96;2.08;0.00649;final_answer;
+old;Haiku 4.5 (régebbi);q05;simple;0;True;True;True;auto-high;False;;;1;2;6179;213;3.15;0.00724;final_answer;
+old;Haiku 4.5 (régebbi);q05;simple;1;True;True;True;auto-high;False;;;1;2;6179;193;2.68;0.00714;final_answer;
+old;Haiku 4.5 (régebbi);q06;simple;0;True;True;True;auto-high;False;;;1;2;8693;207;3.73;0.00973;final_answer;
+old;Haiku 4.5 (régebbi);q06;simple;1;True;True;True;auto-high;False;;;1;2;8699;183;3.53;0.00961;final_answer;
+old;Haiku 4.5 (régebbi);q07;simple;0;True;True;True;auto-high;False;;;1;2;6090;148;2.51;0.00683;final_answer;
+old;Haiku 4.5 (régebbi);q07;simple;1;True;True;True;auto-high;False;;;1;2;6090;139;4.44;0.00679;final_answer;
+old;Haiku 4.5 (régebbi);q08;simple;0;True;True;True;auto-high;False;;;1;2;6113;145;2.33;0.00684;final_answer;
+old;Haiku 4.5 (régebbi);q08;simple;1;True;True;True;auto-high;False;;;1;2;6113;151;2.36;0.00687;final_answer;
+old;Haiku 4.5 (régebbi);q09;multi_step;0;True;True;True;manual;False;;;2;3;9442;334;4.97;0.01111;final_answer;"Magyarosított/fordított nevek; tartalmilag helyes. Kézi átnézés (Claude), felhasználói megerősítés kell."
+old;Haiku 4.5 (régebbi);q09;multi_step;1;True;True;True;auto-high;False;;;2;3;9447;341;5.19;0.01115;final_answer;
+old;Haiku 4.5 (régebbi);q10;multi_step;0;True;True;True;auto-high;False;;;2;3;9412;270;4.42;0.01076;final_answer;
+old;Haiku 4.5 (régebbi);q10;multi_step;1;True;True;True;auto-high;False;;;2;3;9699;251;4.25;0.01095;final_answer;
+old;Haiku 4.5 (régebbi);q11;multi_step;0;True;True;True;auto-high;False;;;2;3;9439;270;4.42;0.01079;final_answer;
+old;Haiku 4.5 (régebbi);q11;multi_step;1;True;True;True;auto-high;False;;;2;3;9934;304;4.69;0.01145;final_answer;
+old;Haiku 4.5 (régebbi);q12;multi_step;0;True;True;True;auto-high;False;;;2;3;9774;254;4.35;0.01104;final_answer;
+old;Haiku 4.5 (régebbi);q12;multi_step;1;True;True;True;auto-high;False;;;2;3;9784;270;4.27;0.01113;final_answer;
+old;Haiku 4.5 (régebbi);q13;multi_step;0;True;True;True;auto-high;False;;;2;3;11911;239;4.86;0.01311;final_answer;
+old;Haiku 4.5 (régebbi);q13;multi_step;1;True;True;True;auto-high;False;;;2;3;11898;215;4.54;0.01297;final_answer;
+old;Haiku 4.5 (régebbi);q14;multi_step;0;True;True;True;auto-high;False;;;2;3;9296;231;4.08;0.01045;final_answer;
+old;Haiku 4.5 (régebbi);q14;multi_step;1;True;True;True;auto-high;False;;;2;3;9288;220;3.89;0.01039;final_answer;
+old;Haiku 4.5 (régebbi);q15;multi_step;0;True;True;True;auto-high;False;;;2;3;9399;290;4.74;0.01085;final_answer;
+old;Haiku 4.5 (régebbi);q15;multi_step;1;True;True;True;auto-high;False;;;2;3;9481;348;6.59;0.01122;final_answer;
+old;Haiku 4.5 (régebbi);q16;multi_step;0;True;True;True;auto-high;False;;;2;3;9357;289;4.69;0.0108;final_answer;
+old;Haiku 4.5 (régebbi);q16;multi_step;1;True;True;True;auto-high;False;;;2;3;9364;267;5.01;0.0107;final_answer;
+old;Haiku 4.5 (régebbi);q17;multi_step;0;True;True;True;auto-high;False;;;4;3;9981;412;5.79;0.01204;final_answer;
+old;Haiku 4.5 (régebbi);q17;multi_step;1;True;True;True;auto-high;False;;;4;3;9955;397;5.43;0.01194;final_answer;
+old;Haiku 4.5 (régebbi);q18;multi_step;0;True;True;True;manual;False;;;3;3;10553;510;8.15;0.0131;final_answer;"Magyarosított/fordított nevek; tartalmilag helyes. Kézi átnézés (Claude), felhasználói megerősítés kell."
+old;Haiku 4.5 (régebbi);q18;multi_step;1;True;True;True;manual;False;;;3;3;10561;456;6.58;0.01284;final_answer;"Magyarosított/fordított nevek; tartalmilag helyes. Kézi átnézés (Claude), felhasználói megerősítés kell."
+old;Haiku 4.5 (régebbi);q19;unanswerable;0;True;True;True;auto-low;False;;;1;2;5977;158;2.91;0.00677;final_answer;
+old;Haiku 4.5 (régebbi);q19;unanswerable;1;True;True;True;auto-low;False;;;1;2;5982;187;3.17;0.00692;final_answer;
+old;Haiku 4.5 (régebbi);q20;unanswerable;0;True;True;True;auto-low;False;;;1;2;5960;82;1.78;0.00637;final_answer;
+old;Haiku 4.5 (régebbi);q20;unanswerable;1;True;True;True;auto-low;False;;;1;2;5960;82;1.84;0.00637;final_answer;
+old;Haiku 4.5 (régebbi);q21;unanswerable;0;True;True;True;auto-low;False;;;2;3;12151;310;5.43;0.0137;final_answer;
+old;Haiku 4.5 (régebbi);q21;unanswerable;1;True;True;True;auto-low;False;;;2;3;9293;285;4.64;0.01072;final_answer;
+old;Haiku 4.5 (régebbi);q22;unanswerable;0;True;True;True;auto-low;False;;;1;2;6028;180;3.19;0.00693;final_answer;
+old;Haiku 4.5 (régebbi);q22;unanswerable;1;True;True;True;auto-low;False;;;2;3;9362;367;5.64;0.0112;final_answer;
+old;Haiku 4.5 (régebbi);q23;unanswerable;0;True;True;True;auto-low;False;;;2;3;9231;226;3.93;0.01036;final_answer;
+old;Haiku 4.5 (régebbi);q23;unanswerable;1;True;True;True;auto-low;False;;;2;3;9228;213;3.89;0.01029;final_answer;
+old;Haiku 4.5 (régebbi);q24;unanswerable;0;True;True;True;auto-low;False;;;1;2;5991;245;3.72;0.00722;final_answer;
+old;Haiku 4.5 (régebbi);q24;unanswerable;1;True;True;True;auto-low;False;;;1;2;5999;201;3.45;0.007;final_answer;
+old;Haiku 4.5 (régebbi);q25;ambiguous;0;True;True;True;auto-low;False;;;1;2;6043;167;2.54;0.00688;final_answer;
+old;Haiku 4.5 (régebbi);q25;ambiguous;1;True;True;True;auto-low;False;;;1;2;6060;214;3.09;0.00713;final_answer;
+old;Haiku 4.5 (régebbi);q26;ambiguous;0;True;True;True;auto-low;False;;;1;2;6051;178;2.86;0.00694;final_answer;
+old;Haiku 4.5 (régebbi);q26;ambiguous;1;False;False;True;auto-low;False;;;0;1;2914;91;1.95;0.00337;final_answer;
+old;Haiku 4.5 (régebbi);q27;ambiguous;0;True;True;True;auto-low;False;;;1;2;6038;150;2.52;0.00679;final_answer;
+old;Haiku 4.5 (régebbi);q27;ambiguous;1;True;True;True;auto-low;False;;;1;2;6072;196;3.28;0.00705;final_answer;
+old;Haiku 4.5 (régebbi);q28;ambiguous;0;True;True;True;auto-low;False;;;1;2;6119;214;3.51;0.00719;final_answer;
+old;Haiku 4.5 (régebbi);q28;ambiguous;1;True;True;True;auto-low;False;;;1;2;6114;209;3.12;0.00716;final_answer;
+old;Haiku 4.5 (régebbi);q29;ambiguous;0;True;True;True;auto-high;False;;;2;3;9485;376;5.25;0.01137;final_answer;
+old;Haiku 4.5 (régebbi);q29;ambiguous;1;True;True;True;manual;False;;;2;3;9439;313;4.62;0.011;final_answer;"Magyarosított/fordított nevek; tartalmilag helyes. Kézi átnézés (Claude), felhasználói megerősítés kell."
+old;Haiku 4.5 (régebbi);q30;ambiguous;0;False;False;False;auto-high;False;;rossz paraméter;1;2;6025;238;3.76;0.00722;final_answer;"Kitalált születési dátum (2009-01-01) a keresésben, így nincs találat; a modell feladta. Kézi átnézés (Claude)."
+old;Haiku 4.5 (régebbi);q30;ambiguous;1;True;True;True;auto-high;False;;;3;4;13032;443;6.69;0.01525;final_answer;
+small;Haiku 5.5 (kicsi);h01;hard;0;True;True;True;manual;False;10;;3;3;9587;420;4.49;0.00117;final_answer;Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség). Kézi átnézés (Claude), felhasználói megerősítés kell.
+small;Haiku 5.5 (kicsi);h01;hard;1;True;True;True;manual;False;10;;3;3;9584;680;5.06;0.0013;final_answer;Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség). Kézi átnézés (Claude), felhasználói megerősítés kell.
+small;Haiku 5.5 (kicsi);h01;hard;2;True;True;True;manual;False;10;;3;3;9556;650;4.72;0.00128;final_answer;Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség). Kézi átnézés (Claude), felhasználói megerősítés kell.
+small;Haiku 5.5 (kicsi);h02;hard;0;True;True;True;manual;False;36,5 | 36 | 5;;1;2;5579;293;3.56;0.0007;final_answer;Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség). Kézi átnézés (Claude), felhasználói megerősítés kell.
+small;Haiku 5.5 (kicsi);h02;hard;1;True;True;True;manual;False;36,5 | 36 | 5;;1;2;5579;328;3.16;0.00072;final_answer;Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség). Kézi átnézés (Claude), felhasználói megerősítés kell.
+small;Haiku 5.5 (kicsi);h02;hard;2;True;True;True;manual;False;36,5 | 36 | 6;;1;2;5579;294;3.05;0.0007;final_answer;Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség). Kézi átnézés (Claude), felhasználói megerősítés kell.
+small;Haiku 5.5 (kicsi);h03;hard;0;True;True;True;auto-high;False;;;4;3;9386;556;5.34;0.00122;final_answer;
+small;Haiku 5.5 (kicsi);h03;hard;1;True;True;True;auto-high;False;;;4;3;9252;402;4.08;0.00113;final_answer;
+small;Haiku 5.5 (kicsi);h03;hard;2;True;True;True;auto-high;False;;;5;3;9602;565;5.13;0.00124;final_answer;
+small;Haiku 5.5 (kicsi);h04;hard;0;True;True;True;auto-high;False;;;6;3;10083;746;7.7;0.00138;final_answer;
+small;Haiku 5.5 (kicsi);h04;hard;1;True;True;True;auto-high;False;;;6;3;10083;789;5.85;0.0014;final_answer;
+small;Haiku 5.5 (kicsi);h04;hard;2;True;True;True;auto-high;False;;;6;3;10083;729;6.17;0.00137;final_answer;
+small;Haiku 5.5 (kicsi);h05;hard;0;True;True;True;auto-high;False;;;5;4;29916;963;8.84;0.00347;final_answer;
+small;Haiku 5.5 (kicsi);h05;hard;1;True;True;True;auto-high;False;;;5;4;29907;850;7.65;0.00342;final_answer;
+small;Haiku 5.5 (kicsi);h05;hard;2;True;True;True;auto-high;False;;;5;4;29899;961;8.98;0.00347;final_answer;
+small;Haiku 5.5 (kicsi);h06;hard;0;True;True;True;auto-high;False;;;2;3;11913;386;4.92;0.00138;final_answer;
+small;Haiku 5.5 (kicsi);h06;hard;1;True;True;True;auto-high;False;;;2;3;11913;364;5.27;0.00137;final_answer;
+small;Haiku 5.5 (kicsi);h06;hard;2;True;True;True;auto-high;False;;;2;3;11935;330;5.1;0.00136;final_answer;
+small;Haiku 5.5 (kicsi);h07;hard;0;True;True;True;auto-high;False;;;2;3;8779;358;5.09;0.00106;final_answer;
+small;Haiku 5.5 (kicsi);h07;hard;1;True;True;True;auto-high;False;;;2;3;8779;340;4.57;0.00105;final_answer;
+small;Haiku 5.5 (kicsi);h07;hard;2;True;True;True;auto-high;False;;;2;3;8779;379;4.83;0.00107;final_answer;
+small;Haiku 5.5 (kicsi);h08;hard;0;True;True;True;auto-high;False;;;2;3;8658;330;4.19;0.00103;final_answer;
+small;Haiku 5.5 (kicsi);h08;hard;1;True;True;True;auto-high;False;;;2;3;8658;332;3.7;0.00103;final_answer;
+small;Haiku 5.5 (kicsi);h08;hard;2;True;True;True;auto-high;False;;;2;3;8658;330;5.25;0.00103;final_answer;
+small;Haiku 5.5 (kicsi);h09;hard;0;True;True;True;auto-low;False;;;2;3;8499;242;3.36;0.00097;final_answer;
+small;Haiku 5.5 (kicsi);h09;hard;1;True;True;True;auto-low;False;;;3;4;15224;511;5.28;0.00178;final_answer;
+small;Haiku 5.5 (kicsi);h09;hard;2;True;True;True;auto-low;False;;;2;3;8499;242;3.21;0.00097;final_answer;
+small;Haiku 5.5 (kicsi);h10;hard;0;True;True;True;manual;False;34,9;;3;3;8978;433;4.25;0.00111;final_answer;Származtatott, helyes szám (összeg / korkülönbség / tömegkülönbség). Kézi átnézés (Claude), felhasználói megerősítés kell.
+small;Haiku 5.5 (kicsi);h10;hard;1;True;True;True;auto-high;False;;;3;3;8978;508;4.52;0.00115;final_answer;
+small;Haiku 5.5 (kicsi);h10;hard;2;True;True;True;auto-high;False;;;3;3;8978;544;4.43;0.00117;final_answer;
+small;Haiku 5.5 (kicsi);h11;hard;0;True;True;True;auto-high;False;;;3;3;9973;445;5.82;0.00122;final_answer;
+small;Haiku 5.5 (kicsi);h11;hard;1;True;True;True;auto-high;False;;;3;3;10017;425;3.86;0.00121;final_answer;
+small;Haiku 5.5 (kicsi);h11;hard;2;True;True;True;auto-high;False;;;3;3;9973;451;5.23;0.00122;final_answer;
+small;Haiku 5.5 (kicsi);h12;hard;0;True;True;True;auto-high;False;;;1;2;5607;275;2.47;0.0007;final_answer;
+small;Haiku 5.5 (kicsi);h12;hard;1;True;True;True;auto-high;False;;;1;2;5607;304;3.44;0.00071;final_answer;
+small;Haiku 5.5 (kicsi);h12;hard;2;True;True;True;auto-high;False;;;1;2;5607;315;3.28;0.00072;final_answer;
+small;Haiku 5.5 (kicsi);q01;simple;0;True;True;True;auto-high;False;;;1;2;5571;171;2.29;0.00064;final_answer;
+small;Haiku 5.5 (kicsi);q01;simple;1;True;True;True;auto-high;False;;;1;2;5571;178;2.09;0.00065;final_answer;
+small;Haiku 5.5 (kicsi);q01;simple;2;True;True;True;auto-high;False;;;1;2;5571;182;2.95;0.00065;final_answer;
+small;Haiku 5.5 (kicsi);q02;simple;0;True;True;True;manual;False;2;;1;2;6734;251;3.23;0.0008;final_answer;"A ""2 elhunyt"" származtatott, helyes szám (a 23 férfi közül Valdés és Montero elhunyt). Kézi átnézés (Claude), megerősítés kell."
+small;Haiku 5.5 (kicsi);q02;simple;1;True;True;True;auto-high;False;;;1;2;6716;176;2.39;0.00076;final_answer;
+small;Haiku 5.5 (kicsi);q02;simple;2;True;True;True;manual;False;2;;1;2;6734;262;4.25;0.0008;final_answer;"A ""2"" a hívás eredményéből származtatott, helyes szám. Kézi átnézés (Claude), megerősítés kell."
+small;Haiku 5.5 (kicsi);q03;simple;0;True;True;True;auto-high;False;;;1;2;5496;100;2.91;0.0006;final_answer;
+small;Haiku 5.5 (kicsi);q03;simple;1;True;True;True;auto-high;False;;;1;2;5496;106;2.3;0.0006;final_answer;
+small;Haiku 5.5 (kicsi);q03;simple;2;True;True;True;auto-high;False;;;1;2;5496;100;3.08;0.0006;final_answer;
+small;Haiku 5.5 (kicsi);q04;simple;0;True;True;True;auto-high;False;;;1;2;5489;106;1.73;0.0006;final_answer;
+small;Haiku 5.5 (kicsi);q04;simple;1;True;True;True;auto-high;False;;;1;2;5489;112;1.88;0.0006;final_answer;
+small;Haiku 5.5 (kicsi);q04;simple;2;True;True;True;auto-high;False;;;1;2;5489;117;2.3;0.00061;final_answer;
+small;Haiku 5.5 (kicsi);q05;simple;0;True;True;True;auto-high;False;;;1;2;5693;259;3.12;0.0007;final_answer;
+small;Haiku 5.5 (kicsi);q05;simple;1;True;True;True;auto-high;False;;;1;2;5693;278;2.65;0.00071;final_answer;
+small;Haiku 5.5 (kicsi);q05;simple;2;True;True;True;auto-high;False;;;1;2;5693;288;2.54;0.00071;final_answer;
+small;Haiku 5.5 (kicsi);q06;simple;0;True;True;True;auto-high;False;;;1;2;8664;395;3.5;0.00106;final_answer;
+small;Haiku 5.5 (kicsi);q06;simple;1;True;True;True;auto-high;False;;;1;2;8689;364;3.18;0.00105;final_answer;
+small;Haiku 5.5 (kicsi);q06;simple;2;True;True;True;auto-high;False;;;2;2;8895;450;3.48;0.00111;final_answer;
+small;Haiku 5.5 (kicsi);q07;simple;0;True;True;True;auto-high;False;;;1;2;5589;162;2.15;0.00064;final_answer;
+small;Haiku 5.5 (kicsi);q07;simple;1;True;True;True;auto-high;False;;;1;2;5589;158;2.23;0.00064;final_answer;
+small;Haiku 5.5 (kicsi);q07;simple;2;True;True;True;auto-high;False;;;1;2;5589;158;2.17;0.00064;final_answer;
+small;Haiku 5.5 (kicsi);q08;simple;0;True;True;True;auto-high;False;;;1;2;5626;174;2.02;0.00065;final_answer;
+small;Haiku 5.5 (kicsi);q08;simple;1;True;True;True;auto-high;False;;;1;2;5626;173;2.04;0.00065;final_answer;
+small;Haiku 5.5 (kicsi);q08;simple;2;True;True;True;auto-high;False;;;1;2;5626;174;2.14;0.00065;final_answer;
+small;Haiku 5.5 (kicsi);q09;multi_step;0;True;True;True;auto-high;False;;;2;3;8630;357;3.7;0.00104;final_answer;
+small;Haiku 5.5 (kicsi);q09;multi_step;1;True;True;True;auto-high;False;;;2;3;8630;355;3.88;0.00104;final_answer;
+small;Haiku 5.5 (kicsi);q09;multi_step;2;True;True;True;auto-high;False;;;2;3;8630;409;3.77;0.00107;final_answer;
+small;Haiku 5.5 (kicsi);q10;multi_step;0;True;True;True;auto-high;False;;;2;3;9382;198;3.32;0.00104;final_answer;
+small;Haiku 5.5 (kicsi);q10;multi_step;1;True;True;True;auto-high;False;;;2;3;9382;324;3.97;0.0011;final_answer;
+small;Haiku 5.5 (kicsi);q10;multi_step;2;True;True;True;auto-high;False;;;2;3;8618;247;3.13;0.00099;final_answer;
+small;Haiku 5.5 (kicsi);q11;multi_step;0;True;True;True;auto-high;False;;;2;3;9259;277;3.08;0.00106;final_answer;
+small;Haiku 5.5 (kicsi);q11;multi_step;1;True;True;True;auto-high;False;;;2;3;9259;284;3.08;0.00107;final_answer;
+small;Haiku 5.5 (kicsi);q11;multi_step;2;True;True;True;auto-high;False;;;2;3;9259;283;4.33;0.00107;final_answer;
+small;Haiku 5.5 (kicsi);q12;multi_step;0;True;True;True;auto-high;False;;;2;3;9065;253;3.17;0.00103;final_answer;
+small;Haiku 5.5 (kicsi);q12;multi_step;1;True;True;True;auto-high;False;;;2;3;9021;230;3.34;0.00102;final_answer;
+small;Haiku 5.5 (kicsi);q12;multi_step;2;True;True;True;auto-high;False;;;2;3;9065;255;3.18;0.00103;final_answer;
+small;Haiku 5.5 (kicsi);q13;multi_step;0;True;True;True;auto-high;False;;;2;3;11456;406;4.84;0.00135;final_answer;
+small;Haiku 5.5 (kicsi);q13;multi_step;1;True;True;True;auto-high;False;;;2;3;11478;414;3.86;0.00135;final_answer;
+small;Haiku 5.5 (kicsi);q13;multi_step;2;True;True;True;auto-high;False;;;2;3;11456;403;5.03;0.00135;final_answer;
+small;Haiku 5.5 (kicsi);q14;multi_step;0;True;True;True;auto-high;False;;;2;3;8563;241;5.22;0.00098;final_answer;
+small;Haiku 5.5 (kicsi);q14;multi_step;1;True;True;True;auto-high;False;;;2;3;8519;219;4.95;0.00096;final_answer;
+small;Haiku 5.5 (kicsi);q14;multi_step;2;True;True;True;auto-high;False;;;2;3;8563;241;4.26;0.00098;final_answer;
+small;Haiku 5.5 (kicsi);q15;multi_step;0;True;True;True;auto-high;False;;;2;3;8627;305;4.44;0.00102;final_answer;
+small;Haiku 5.5 (kicsi);q15;multi_step;1;True;True;True;auto-high;False;;;2;3;8627;298;4.36;0.00101;final_answer;
+small;Haiku 5.5 (kicsi);q15;multi_step;2;True;True;True;auto-high;False;;;2;3;8627;303;5.2;0.00101;final_answer;
+small;Haiku 5.5 (kicsi);q16;multi_step;0;True;True;True;auto-high;False;;;2;3;9573;503;5.37;0.00121;final_answer;
+small;Haiku 5.5 (kicsi);q16;multi_step;1;True;True;True;auto-high;False;;;2;3;9507;422;4.01;0.00116;final_answer;
+small;Haiku 5.5 (kicsi);q16;multi_step;2;True;True;True;auto-high;False;;;2;3;9573;474;4.61;0.00119;final_answer;
+small;Haiku 5.5 (kicsi);q17;multi_step;0;True;True;True;auto-high;False;;;4;3;9392;522;4.59;0.0012;final_answer;
+small;Haiku 5.5 (kicsi);q17;multi_step;1;True;True;True;auto-high;False;;;4;3;9304;496;4.76;0.00118;final_answer;
+small;Haiku 5.5 (kicsi);q17;multi_step;2;True;True;True;auto-high;False;;;4;3;9310;560;4.82;0.00121;final_answer;
+small;Haiku 5.5 (kicsi);q18;multi_step;0;True;True;True;auto-high;False;;;3;3;9958;795;5.99;0.00139;final_answer;
+small;Haiku 5.5 (kicsi);q18;multi_step;1;True;True;True;auto-high;False;;;3;3;9958;829;5.92;0.00141;final_answer;
+small;Haiku 5.5 (kicsi);q18;multi_step;2;True;True;True;auto-high;False;;;3;3;9958;849;5.84;0.00142;final_answer;
+small;Haiku 5.5 (kicsi);q19;unanswerable;0;True;True;True;auto-low;False;;;3;3;8561;366;4.96;0.00104;final_answer;
+small;Haiku 5.5 (kicsi);q19;unanswerable;1;True;True;True;auto-low;False;;;3;4;11620;471;5.53;0.0014;final_answer;
+small;Haiku 5.5 (kicsi);q19;unanswerable;2;True;True;True;auto-low;False;;;3;4;11644;470;5.87;0.0014;final_answer;
+small;Haiku 5.5 (kicsi);q20;unanswerable;0;True;True;True;auto-low;False;;;1;2;5439;140;2.3;0.00061;final_answer;
+small;Haiku 5.5 (kicsi);q20;unanswerable;1;True;True;True;auto-low;False;;;1;2;5439;144;2.17;0.00062;final_answer;
+small;Haiku 5.5 (kicsi);q20;unanswerable;2;True;True;True;auto-low;False;;;1;2;5439;147;2.33;0.00062;final_answer;
+small;Haiku 5.5 (kicsi);q21;unanswerable;0;True;True;True;auto-low;False;;;3;4;18594;596;7.28;0.00216;final_answer;
+small;Haiku 5.5 (kicsi);q21;unanswerable;1;True;True;True;auto-low;False;;;3;4;18532;564;6.15;0.00214;final_answer;
+small;Haiku 5.5 (kicsi);q21;unanswerable;2;True;True;True;manual;False;25;;6;6;54662;1070;11.75;0.006;final_answer;"A ""25"" a ""25-OH D-vitamin"" névből jön (a modell a D-vitamin kódját kereste), nem mért érték. Kézi átnézés (Claude), megerősítés kell."
+small;Haiku 5.5 (kicsi);q22;unanswerable;0;True;True;True;auto-low;False;;;2;3;8581;361;3.61;0.00104;final_answer;
+small;Haiku 5.5 (kicsi);q22;unanswerable;1;True;True;True;auto-low;False;;;2;3;8633;417;4.77;0.00107;final_answer;
+small;Haiku 5.5 (kicsi);q22;unanswerable;2;True;True;True;auto-low;False;;;2;3;8473;267;3.52;0.00098;final_answer;
+small;Haiku 5.5 (kicsi);q23;unanswerable;0;True;True;True;auto-low;False;;;2;3;8421;360;4.02;0.00102;final_answer;
+small;Haiku 5.5 (kicsi);q23;unanswerable;1;True;True;True;auto-low;False;;;2;3;8421;317;3.82;0.001;final_answer;
+small;Haiku 5.5 (kicsi);q23;unanswerable;2;True;True;True;auto-low;False;;;3;4;12506;418;5.58;0.00146;final_answer;
+small;Haiku 5.5 (kicsi);q24;unanswerable;0;True;True;True;auto-low;False;;;2;3;8572;428;4.49;0.00107;final_answer;
+small;Haiku 5.5 (kicsi);q24;unanswerable;1;True;True;True;auto-low;False;;;2;3;8612;332;4.22;0.00103;final_answer;
+small;Haiku 5.5 (kicsi);q24;unanswerable;2;True;True;True;auto-low;False;;;2;3;8666;399;4.09;0.00107;final_answer;
+small;Haiku 5.5 (kicsi);q25;ambiguous;0;True;True;True;auto-low;False;;;1;2;5508;204;2.96;0.00065;final_answer;
+small;Haiku 5.5 (kicsi);q25;ambiguous;1;True;True;True;auto-low;False;;;1;2;5508;206;3.14;0.00065;final_answer;
+small;Haiku 5.5 (kicsi);q25;ambiguous;2;True;True;True;auto-low;False;;;1;2;5530;185;2.28;0.00065;final_answer;
+small;Haiku 5.5 (kicsi);q26;ambiguous;0;True;True;True;auto-low;False;;;1;2;5491;188;2.6;0.00064;final_answer;
+small;Haiku 5.5 (kicsi);q26;ambiguous;1;True;True;True;auto-low;False;;;1;2;5513;192;2.3;0.00065;final_answer;
+small;Haiku 5.5 (kicsi);q26;ambiguous;2;True;True;True;auto-low;False;;;1;2;5491;152;2.12;0.00063;final_answer;
+small;Haiku 5.5 (kicsi);q27;ambiguous;0;True;True;True;auto-low;False;;;1;2;5553;243;4.46;0.00068;final_answer;
+small;Haiku 5.5 (kicsi);q27;ambiguous;1;True;True;True;auto-low;False;;;1;2;5531;227;3.17;0.00067;final_answer;
+small;Haiku 5.5 (kicsi);q27;ambiguous;2;True;True;True;auto-low;False;;;1;2;5524;225;4.6;0.00066;final_answer;
+small;Haiku 5.5 (kicsi);q28;ambiguous;0;True;True;True;auto-low;False;;;1;2;5641;359;3.45;0.00074;final_answer;
+small;Haiku 5.5 (kicsi);q28;ambiguous;1;True;True;True;auto-low;False;;;1;2;5641;347;4.73;0.00074;final_answer;
+small;Haiku 5.5 (kicsi);q28;ambiguous;2;True;True;True;auto-low;False;;;1;2;5635;348;3.7;0.00074;final_answer;
+small;Haiku 5.5 (kicsi);q29;ambiguous;0;True;True;True;auto-high;False;;;2;3;8719;383;3.76;0.00106;final_answer;
+small;Haiku 5.5 (kicsi);q29;ambiguous;1;True;True;True;auto-high;False;;;2;3;8721;388;4.13;0.00107;final_answer;
+small;Haiku 5.5 (kicsi);q29;ambiguous;2;True;True;True;auto-high;False;;;2;3;8727;525;5.1;0.00114;final_answer;
+small;Haiku 5.5 (kicsi);q30;ambiguous;0;True;True;True;auto-high;False;;;2;3;9596;396;6.0;0.00116;final_answer;
+small;Haiku 5.5 (kicsi);q30;ambiguous;1;True;True;True;auto-high;False;;;2;3;9470;393;5.59;0.00114;final_answer;
+small;Haiku 5.5 (kicsi);q30;ambiguous;2;True;True;True;auto-high;False;;;2;3;9572;436;6.99;0.00118;final_answer;
